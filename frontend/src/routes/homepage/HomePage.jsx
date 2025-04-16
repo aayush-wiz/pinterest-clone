@@ -1,10 +1,10 @@
-import Gallary from "../../components/gallary/Gallary";
+import Gallery from "../../components/gallery/Gallery";
 import "./homepage.css";
 
 const HomePage = () => {
   return (
     <div className="homepage">
-      <Gallary />
+      <Gallery />
     </div>
   );
 };

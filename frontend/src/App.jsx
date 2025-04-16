@@ -1,7 +1,7 @@
 import "./app.css";
 import LeftBar from "./components/leftbar/Leftbar";
 import TopBar from "./components/topbar/TopBar";
-import Gallary from "./components/gallary/Gallary";
+import Gallery from "./components/gallery/Gallery";
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <LeftBar />
       <div className="content">
         <TopBar />
-        <Gallary />
+        <Gallery />
       </div>
     </div>
   );

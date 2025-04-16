@@ -1,8 +1,8 @@
-import Gallary from "../../components/gallary/Gallary";
+import Gallery from "../../components/gallery/Gallery";
 import "./searchpage.css";
 
 const SearchPage = () => {
-  return <Gallary />;
+  return <Gallery />;
 };
 
 export default SearchPage;

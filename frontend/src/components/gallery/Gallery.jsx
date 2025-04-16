@@ -1,7 +1,7 @@
-import GallaryItem from "../gallaryItem/GallaryItem";
-import "./gallary.css";
+import GallaryItem from "../galleryItem/GalleryItem";
+import "./gallery.css";
 
-const Gallary = () => {
+const Gallery = () => {
   // TEMP
   const items = [
     {
@@ -158,7 +158,7 @@ const Gallary = () => {
 
   return (
     <>
-      <div className="gallary">
+      <div className="gallery">
         {items.map((item) => (
           <GallaryItem key={item.id} item={item} />
         ))}
@@ -167,4 +167,4 @@ const Gallary = () => {
   );
 };
 
-export default Gallary;
+export default Gallery;

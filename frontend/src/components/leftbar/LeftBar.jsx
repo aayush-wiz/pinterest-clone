@@ -1,4 +1,5 @@
 import "./leftBar.css";
+import Image from "../image/Image";
 
 const LeftBar = () => {
   return (
@@ -6,23 +7,27 @@ const LeftBar = () => {
       <div className="leftBar">
         <div className="menuIcons">
           <a href="/" className="menuIcon">
-            <img src="/general/pinterest-logo.svg" alt="logo" className="logo" />
+            <Image
+              path="/general/pinterest-logo.svg"
+              alt="logo"
+              className="logo"
+            />
           </a>
           <a href="/" className="menuIcon">
-            <img src="/general/home.svg" alt="home" />
+            <Image path="/general/home.svg" alt="home" />
           </a>
           <a href="/" className="menuIcon">
-            <img src="/general/create.svg" alt="create" />
+            <Image path="/general/create.svg" alt="create" />
           </a>
           <a href="/" className="menuIcon">
-            <img src="/general/updates.svg" alt="update" />
+            <Image path="/general/updates.svg" alt="update" />
           </a>
           <a href="/" className="menuIcon">
-            <img src="/general/messages.svg" alt="message" />
+            <Image path="/general/messages.svg" alt="message" />
           </a>
         </div>
         <a href="/" className="menuIcon">
-          <img src="/general/settings.svg" alt="settings" />
+          <Image path="/general/settings.svg" alt="settings" />
         </a>
       </div>
     </>
