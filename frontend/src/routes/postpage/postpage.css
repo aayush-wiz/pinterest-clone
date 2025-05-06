@@ -1,4 +1,4 @@
-.postpage {
+.postPage {
   display: flex;
   justify-content: center;
   gap: 32px;
@@ -8,20 +8,23 @@
   width: 70%;
   max-height: 820px;
   display: flex;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #e9e9e9;
   border-radius: 32px;
   overflow: hidden;
 }
 
 .postImg {
-  flex: 1;
-  background-color: #c0a68c;
+  /* FIXED: IMAGE */
+  /* flex: 1; */
+  background-color: #c8bcaf;
 }
 
 .postImg img {
   width: 100%;
   height: 100%;
-  object-fit: hidden;
+  /* FIXED: IMAGE */
+  /* object-fit: cover; */
+  object-fit: contain;
 }
 
 .postDetails {
@@ -50,15 +53,15 @@
   font-size: 14px;
 }
 
-@media (max-width: 701px) {
+@media (max-width: 1127px) {
   .postContainer {
-    flex-direction: column;
+    width: 100%;
+    margin-right: 16px;
   }
 }
-
-@media (max-width: 1120px) {
+@media (max-width: 751px) {
   .postContainer {
-    margin-right: 16px;
-    width: 100%;
+    flex-direction: column;
+    max-height: unset;
   }
 }
